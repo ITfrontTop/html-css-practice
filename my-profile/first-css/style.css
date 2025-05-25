@@ -1,0 +1,40 @@
+* {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+span {
+  color: red;
+}
+
+ul li {
+  list-style: malayalam;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+#first-text {
+  font-size: 50px;
+}
+
+/* *, tag, class, id, inline styles, important */
+
+.insta {
+  color: red;
+}
+
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
+#instagram {
+  color: purple;
+}

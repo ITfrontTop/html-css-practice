@@ -1,0 +1,18 @@
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+  border: 5px solid red;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.box p {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  margin: 10px;
+}

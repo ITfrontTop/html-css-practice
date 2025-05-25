@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <style>
+      p {
+        font-size: 40px;
+      }
+
+      p svg {
+        width: 40px;
+        height: 40px;
+      }
+      p::before {
+        content: url(./img/phone.svg);
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Our contacts 023423434</p>
+  </body>
+</html>
