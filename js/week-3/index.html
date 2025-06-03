@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3</title>
+    <script src="./main.js" defer></script>
+    <style>
+      p {
+        padding: 20px;
+        border: 2px solid gray;
+        background-color: lightgray;
+        border-radius: 20px;
+      }
+
+      .buttonChange {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        border-radius: 5px;
+        color: red;
+        text-transform: uppercase;
+      }
+
+      .firstInput,
+      .lastInput {
+        width: 50%;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border: 2px solid gray;
+      }
+
+      .change {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: aqua;
+        border: 2px solid aquamarine;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body id="main">
+    <p class="text">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi expedita
+      fugit quo inventore molestias obcaecati excepturi nesciunt ea velit
+      fugiat.
+    </p>
+    <button class="buttonChange">Change</button>
+
+    <form>
+      <input
+        class="firstInput"
+        name="input1"
+        type="text"
+        placeholder="Введите имя"
+      />
+      <br />
+      <input
+        class="lastInput"
+        name="input2"
+        type="text"
+        placeholder="Введите фамилию"
+      />
+      <br />
+    </form>
+    <button class="change">submit</button>
+
+    <h2 class="firstName"></h2>
+    <h2 class="lastName"></h2>
+  </body>
+</html>
