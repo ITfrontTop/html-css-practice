@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1 */
+.year {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.wrapper-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  color: rgb(0, 26, 255);
+}
+
+.time {
+  width: 100px;
+  height: 80px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2 */
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+p {
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px;
+}
+
+p:nth-child(odd) {
+  color: rebeccapurple;
+}
